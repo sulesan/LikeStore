@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context="com.example.android.likestore.MainActivity">
+
+    <ImageView
+        style="@style/InsidePhotoTheme"
+        android:src="@drawable/inside" />
+
+    <ImageView
+        style="@style/LogoTheme"
+        android:src="@drawable/likestore" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/PictoStyle"
+                android:src="@drawable/letter" />
+
+            <ImageView
+                style="@style/PictoStyle"
+                android:src="@drawable/geography" />
+
+            <ImageView
+                style="@style/PictoStyle"
+                android:src="@drawable/instagram" />
+
+            <ImageView
+                style="@style/PictoStyle"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                style="@style/PictoStyle"
+                android:src="@drawable/phone" />
+
+            <ImageView
+                style="@style/PictoStyle"
+                android:src="@drawable/address" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextStyle1"
+                android:text="@string/p1" />
+
+
+            <TextView
+                style="@style/TextStyle1"
+                android:autoLink="web"
+                android:text="@string/p2" />
+
+
+            <TextView
+                style="@style/TextStyle1"
+                android:text="@string/p3" />
+
+            <TextView
+                style="@style/TextStyle1"
+                android:text="@string/p3" />
+
+            <TextView
+                style="@style/TextStyle1"
+                android:text="@string/p4" />
+
+            <TextView
+                style="@style/TextStyle2"
+                android:text="@string/p5" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

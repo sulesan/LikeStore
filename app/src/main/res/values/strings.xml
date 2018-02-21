@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LikeStore</string>
+
+    <!-- This is for email text -->
+    <string name="p1">hello@likestore.co</string>
+
+    <!-- This is for website text -->
+    <string name="p2">http://likestore.co</string>
+
+    <!-- This is for ig and fb text -->
+    <string name="p3">likestoreco</string>
+
+    <!-- This is for phone text -->
+    <string name="p4">0212 249 19 49</string>
+
+    <!-- This is for address text -->
+    <string name="p5">Kemankeş Karamustafa Paşa Mahallesi, No:12, Murakıp Sk., 34425 Beyoğlu/İstanbul</string>
+
+
+</resources>
