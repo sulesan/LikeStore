@@ -1,94 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     android:clickable="true"
-    android:orientation="vertical"
+    android:fillViewport="true"
     tools:context="com.example.android.likestore.MainActivity">
-
-    <ImageView
-        style="@style/InsidePhotoTheme"
-        android:src="@drawable/inside" />
-
-    <ImageView
-        style="@style/LogoTheme"
-        android:src="@drawable/likestore" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
+        <ImageView
+            style="@style/InsidePhotoTheme"
+            android:src="@drawable/inside" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                style="@style/PictoStyle"
-                android:src="@drawable/letter" />
-
-            <ImageView
-                style="@style/PictoStyle"
-                android:src="@drawable/geography" />
-
-            <ImageView
-                style="@style/PictoStyle"
-                android:src="@drawable/instagram" />
-
-            <ImageView
-                style="@style/PictoStyle"
-                android:src="@drawable/facebook" />
-
-            <ImageView
-                style="@style/PictoStyle"
-                android:src="@drawable/phone" />
-
-            <ImageView
-                style="@style/PictoStyle"
-                android:src="@drawable/address" />
-
-        </LinearLayout>
+        <ImageView
+            style="@style/LogoTheme"
+            android:src="@drawable/likestore" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
-            <TextView
-                style="@style/TextStyle1"
-                android:text="@string/p1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
+                <ImageView
+                    style="@style/PictoStyle"
+                    android:src="@drawable/letter" />
 
-            <TextView
-                style="@style/TextStyle1"
-                android:autoLink="web"
-                android:text="@string/p2" />
+                <ImageView
+                    style="@style/PictoStyle"
+                    android:src="@drawable/geography" />
 
+                <ImageView
+                    style="@style/PictoStyle"
+                    android:src="@drawable/instagram" />
 
-            <TextView
-                style="@style/TextStyle1"
-                android:text="@string/p3" />
+                <ImageView
+                    style="@style/PictoStyle"
+                    android:src="@drawable/facebook" />
 
-            <TextView
-                style="@style/TextStyle1"
-                android:text="@string/p3" />
+                <ImageView
+                    style="@style/PictoStyle"
+                    android:src="@drawable/phone" />
 
-            <TextView
-                style="@style/TextStyle1"
-                android:text="@string/p4" />
+                <ImageView
+                    style="@style/PictoStyle"
+                    android:src="@drawable/address" />
 
-            <TextView
-                style="@style/TextStyle2"
-                android:text="@string/p5" />
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextStyle1"
+                    android:text="@string/emailText" />
+
+                <TextView
+                    style="@style/TextStyle1"
+                    android:autoLink="web"
+                    android:text="@string/websiteText" />
+
+                <TextView
+                    style="@style/TextStyle1"
+                    android:text="@string/igFbText" />
+
+                <TextView
+                    style="@style/TextStyle1"
+                    android:text="@string/igFbText" />
+
+                <TextView
+                    style="@style/TextStyle1"
+                    android:text="@string/phoneText" />
+
+                <TextView
+                    style="@style/TextStyle2"
+                    android:text="@string/addressText" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>

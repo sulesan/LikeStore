@@ -1,20 +1,20 @@
 <resources>
     <string name="app_name">LikeStore</string>
 
-    <!-- This is for email text -->
-    <string name="p1">hello@likestore.co</string>
+    <!-- This is a string for email address -->
+    <string name="emailText">hello@likestore.co</string>
 
-    <!-- This is for website text -->
-    <string name="p2">http://likestore.co</string>
+    <!-- This is a string for website adress -->
+    <string name="websiteText">http://likestore.co</string>
 
-    <!-- This is for ig and fb text -->
-    <string name="p3">likestoreco</string>
+    <!-- This is a string for instagram and facebook address -->
+    <string name="igFbText">likestoreco</string>
 
-    <!-- This is for phone text -->
-    <string name="p4">0212 249 19 49</string>
+    <!-- This is a string for phone number -->
+    <string name="phoneText">0212 249 19 49</string>
 
-    <!-- This is for address text -->
-    <string name="p5">Kemankeş Karamustafa Paşa Mahallesi, No:12, Murakıp Sk., 34425 Beyoğlu/İstanbul</string>
+    <!-- This is a string for address text -->
+    <string name="addressText">Kemankeş Karamustafa Paşa Mahallesi, No:12, Murakıp Sk., 34425 Beyoğlu/İstanbul</string>
 
 
 </resources>
